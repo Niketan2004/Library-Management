@@ -175,9 +175,9 @@ public class Library {
      }
 
      public static void main(String[] args) {
-          final String url = "jdbc:mysql://localhost:3306/demo";
-          final String userName = "root";
-          final String password = "Admin@123";
+          final String url = "jdbc:mysql://localhost:3306/Database_name";
+          final String userName = "Mysql_Username";
+          final String password = "Mysql_Password";
           Books l = new Books();
           try (Connection con = DriverManager.getConnection(url, userName, password)) {
                System.out.println("--------------WELCOME TO THE LIBRARY--------------");
